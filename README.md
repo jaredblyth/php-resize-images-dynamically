@@ -18,3 +18,6 @@ http://jaredblyth.com/photos/adelaide/DSC00110.JPG
 http://jaredblyth.com/photos/photo.php?photo=adelaide/DSC00110.JPG&percent=0.1
 
 The first link downloads the original high resolution photo from the server (2.24MB). The second link downloads a copy that is only 10% of the original size. No second copy exists, but instead is created on the server when requested. Try changing the percentage parameter in the URL to create a different sized thumbnail. These thumbnail copies are smaller file sizes than the original, which means that the bigger original photo and its 2.24MB don't need to be downloaded.
+
+
+Included also are files to list the folders that are in a directory, and also display all the photos in each directory as thumbnails with links to open larger versions of the photos. One set of files uses plain HTML5 with the JQuery fancybox plug-in. The other set of files (portfolio) uses the Bootstrap theme Colorsy with a more colorful and responsive design. These files can be controlled via URL parameters to set the number of photos per page, the size of the thumbnails, and the size of the larger versions (as percentages of the original photos in the directory).
